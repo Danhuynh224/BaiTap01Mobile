@@ -44,7 +44,7 @@ public class Cau5Activity extends AppCompatActivity {
                 String input = editText.getText().toString().trim();
 
                 if (input.isEmpty()) {
-                    Toast.makeText(Cau5Activity.this,"Vui lòng nhập chuổi",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Cau5Activity.this,"Vui lòng nhập chuỗi",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 String[] words = input.split(" ");
